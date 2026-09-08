@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>specificity</title>
+    <link rel="stylesheet" href="../assets/Specificity.css">
+    <style>
+        /* embedded styles are more specific than external styles, but less specific than inline styles */
+    </style>
+</head>
+<body>
+    <h1>Specificity</h1>
+
+    <!-- inline styles are the most specific -->
+    <header style="background:lightcoral;">
+        Stylesheet Specificity <br>
+        external < embedded < inline
+    </header>
+
+    <main class="class" id="id">
+        Identifier Specificity
+    </main>
+
+    <footer>
+        Location Specificity
+    </footer>
+</body>
+</html>

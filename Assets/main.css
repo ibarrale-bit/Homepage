@@ -1,0 +1,30 @@
+body {
+    background-color:lightblue;
+    font-size:40px;
+}
+
+p {
+    font-size:25px;
+    background-color:aquamarine;
+    color:rgba(255,100,50, 0.5);
+
+    /* the border shorthand property expects 3 values for the border-width, border-style, and border-color*/
+    border:10px dashed;
+    /* padding is internal spacing for our elements */
+    padding:50px;
+    /* margin is external spacing around our elements */
+    margin:50px;
+
+}
+
+.banner {
+    background-color: #fff678;
+}
+
+img {
+    max-width:100%;
+}
+
+h2 {
+    color:blue;
+}
