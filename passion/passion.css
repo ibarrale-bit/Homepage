@@ -1,1 +1,65 @@
-body
+@font-face {
+    font-family: 'passion';
+    src: url('DaydreamRegular.woff2') format('woff2'),
+        url('DaydreamRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    background-color: black;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-family: 'passion', sans-serif;
+}
+
+
+h1 {
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-link {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: black;
+  text-decoration: none; /* Removes the default underline */
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+ul {
+    color:whitesmoke;
+}
+
+
+h4 {
+    color:whitesmoke;
+}
+
+
+a {
+    color:whitesmoke;
+}
+
+
+p {
+    font-size:20px;
+    color:whitesmoke;
+}
